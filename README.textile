@@ -1,3 +1,9 @@
 h1. Textpattern branding
 
 Textpattern branding guidelines and design resources used within the various Textpattern websites. *Currently under development.*
+
+h2. Install
+
+You can include Textpattern branding resources in your project using "Bower":http://bower.io:
+
+bc. $ bower install textpattern-branding
