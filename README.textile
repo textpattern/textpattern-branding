@@ -14,6 +14,11 @@ The repository uses "Grunt":http://gruntjs.com/ to run tasks. First make sure yo
 
 bc. $ npm install -g grunt-cli
 
+After you have the base dependencies taken care of, you can install the project's dependencies. Navigate to the project's directory, and run @npm@:
+
+bc. $ cd textpattern-branding
+$ npm install
+
 After you have installed all dependencies, you will be able to run tasks using Grunt:
 
 bc. $ grunt [task]
