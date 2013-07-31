@@ -19,7 +19,8 @@
         "grunt": "~0.4.0",
         "grunt-cli": "~0.1",
         "grunt-bumpup": "0.2.0",
-        "grunt-tagrelease": "0.2.0"
+        "grunt-tagrelease": "0.2.0",
+        "grunt-contrib-compress": "0.5.2"
     },
     "keywords": [
         "textpattern",

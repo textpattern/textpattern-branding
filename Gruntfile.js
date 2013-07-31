@@ -4,8 +4,11 @@ module.exports = function (grunt)
 
     grunt.loadNpmTasks('grunt-bumpup');
     grunt.loadNpmTasks('grunt-tagrelease');
+    grunt.loadNpmTasks('grunt-contrib-compress');
 
     grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+
         bumpup: {
             files: ['package.json', 'bower.json']
         },
@@ -16,7 +19,27 @@ module.exports = function (grunt)
             message: 'Marks v%version%.',
             prefix:  '',
             annotate: true
+        },
+
+        compress: {
+            main: {
+                options: {
+                    archive: 'dist/<%= pkg.name %>.v<%= pkg.version %>.zip'
+                },
+                files: [
+                    {
+                        expand: true,
+                        src: ['*.textile', 'src/**', 'assets/**'],
+                        dest: '<%= pkg.name %>/'
+                    }
+                ]
+            }
         }
+    });
+
+    grunt.registerTask('updatepkg', function ()
+    {
+        grunt.config.set('pkg', grunt.file.readJSON('package.json'));
     });
 
     grunt.registerTask('release', function (type)
@@ -28,5 +51,9 @@ module.exports = function (grunt)
 
         grunt.task.run('bumpup:' + type);
         grunt.task.run('tagrelease');
+        grunt.task.run('updatepkg');
+        grunt.task.run('compress');
     });
+
+    grunt.registerTask('default', ['compress']);
 };
