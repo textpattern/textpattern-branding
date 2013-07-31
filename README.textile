@@ -7,3 +7,15 @@ h2. Install
 You can include Textpattern branding resources in your project using "Bower":http://bower.io:
 
 bc. $ bower install textpattern-branding
+
+h2. Development
+
+The repository uses "Grunt":http://gruntjs.com/ to run tasks. First make sure you have base dependencies installed: "Node.js":http://nodejs.org/ and "Grunt":http://gruntjs.com/. You can install Node using its installer and Grunt with npm:
+
+bc. $ npm install -g grunt-cli
+
+After you have installed all dependencies, you will be able to run tasks using Grunt:
+
+bc. $ grunt [task]
+
+Where the @[task]@ is either @compress@ or @release[:patch | :minor | :major]@.
