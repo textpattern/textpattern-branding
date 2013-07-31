@@ -37,12 +37,12 @@ module.exports = function (grunt)
         }
     });
 
-    grunt.registerTask('updatepkg', function ()
+    grunt.registerTask('updatepkg', 'Reloads package.json to memory.', function ()
     {
         grunt.config.set('pkg', grunt.file.readJSON('package.json'));
     });
 
-    grunt.registerTask('release', function (type)
+    grunt.registerTask('release', 'Creates a new release. Usage:\ngrunt release[:patch | :minor | :major]', function (type)
     {
         if (!type)
         {
