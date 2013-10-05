@@ -2,25 +2,25 @@
 <!DOCTYPE svg>
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="380px" height="238px" viewBox="0 0 380 238" enable-background="new 0 0 380 238" xml:space="preserve">
 <linearGradient id="svg-txplogo-grad1" gradientUnits="userSpaceOnUse" x1="294.5747" y1="-644.6753" x2="312.1563" y2="-627.0936" gradientTransform="matrix(1 0 0 -1 -101 -537.5)">
-	<stop offset="0.1484" style="stop-color:#7b6c35"/>
-	<stop offset="0.8352" style="stop-color:#b9aa69"/>
+	<stop offset="0.125" style="stop-color:#7b6c35"/>
+	<stop offset="0.875" style="stop-color:#b9aa69"/>
 </linearGradient>
 <linearGradient id="svg-txplogo-grad2" gradientUnits="userSpaceOnUse" x1="294.5576" y1="-644.6572" x2="311.8472" y2="-627.3676" gradientTransform="matrix(1 0 0 -1 -101 -537.5)">
-	<stop offset="9.340000e-02" style="stop-color:#2b2414"/>
-	<stop offset="0.7363" style="stop-color:#624e22"/>
+	<stop offset="0" style="stop-color:#2b2414"/>
+	<stop offset="0.75" style="stop-color:#624e22"/>
 </linearGradient>
 <linearGradient id="svg-txplogo-grad3" gradientUnits="userSpaceOnUse" x1="308.3491" y1="-630.8247" x2="296.2579" y2="-642.916" gradientTransform="matrix(1 0 0 -1 -101 -537.5)">
-	<stop offset="0.5165" style="stop-color:#2d2400"/>
-	<stop offset="0.8626" style="stop-color:#211700"/>
+	<stop offset="0.5" style="stop-color:#2d2400"/>
+	<stop offset="0.875" style="stop-color:#211700"/>
 </linearGradient>
 <linearGradient id="svg-txplogo-grad4" gradientUnits="userSpaceOnUse" x1="230.2891" y1="-562.7852" x2="251.7136" y2="-584.2097" gradientTransform="matrix(1 0 0 -1 -101 -537.5)">
 	<stop offset="0" style="stop-color:#ffffff"/>
 	<stop offset="1" style="stop-color:#666666"/>
 </linearGradient>
 <linearGradient id="svg-txplogo-grad5" gradientUnits="userSpaceOnUse" x1="217.0454" y1="-597.4487" x2="264.7599" y2="-549.7342" gradientTransform="matrix(1 0 0 -1 -101 -537.5)">
-	<stop offset="7.690000e-02" style="stop-color:#0a0a0a"/>
-	<stop offset="0.533" style="stop-color:#0f0f0f"/>
-	<stop offset="0.9121" style="stop-color:#1a1a1a"/>
+	<stop offset="0" style="stop-color:#0a0a0a"/>
+	<stop offset="0.5" style="stop-color:#0f0f0f"/>
+	<stop offset="1" style="stop-color:#1a1a1a"/>
 </linearGradient>
 <linearGradient id="svg-txplogo-grad6" gradientUnits="userSpaceOnUse" x1="206.4546" y1="-586.6196" x2="227.8791" y2="-608.0441" gradientTransform="matrix(1 0 0 -1 -101 -537.5)">
 	<stop offset="0" style="stop-color:#999999"/>
