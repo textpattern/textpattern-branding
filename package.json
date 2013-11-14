@@ -1,34 +1,11 @@
 {
     "name": "textpattern-branding",
-    "title": "Textpattern Branding Resources",
-    "description": "Textpattern CMS and Network branding resources",
     "version": "0.0.0",
-    "homepage": "https://github.com/textpattern/textpattern-branding",
-    "author": {
-        "name": "The Textpattern Development Team",
-        "url": "http://textpattern.com"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/textpattern/textpattern-branding.git"
-    },
-    "bugs": {
-        "url": "https://github.com/textpattern/textpattern-branding/issues"
-    },
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-bumpup": "0.4.2",
         "grunt-cli": "~0.1",
         "grunt-contrib-compress": "0.5.2",
         "grunt-tagrelease": "0.2.1"
-    },
-    "keywords": [
-        "textpattern",
-        "brand",
-        "resources",
-        "assets",
-        "logos",
-        "CMS",
-        "network"
-    ]
+    }
 }
