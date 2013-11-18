@@ -1,6 +1,6 @@
 h1. Textpattern branding
 
-Textpattern branding guidelines and design resources used within the various Textpattern websites. *Currently under development.*
+"Textpattern":http://textpattern.com branding resources.
 
 h2. Install
 
