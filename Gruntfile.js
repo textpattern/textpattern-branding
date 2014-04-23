@@ -1,24 +1,16 @@
-module.exports = function (grunt)
-{
+module.exports = function (grunt) {
     'use strict';
 
+    // Load Grunt plugins.
     grunt.loadNpmTasks('grunt-bumpup');
-    grunt.loadNpmTasks('grunt-tagrelease');
     grunt.loadNpmTasks('grunt-contrib-compress');
+    grunt.loadNpmTasks('grunt-tagrelease');
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
         bumpup: {
             files: ['package.json', 'bower.json']
-        },
-
-        tagrelease: {
-            file: 'package.json',
-            commit:  true,
-            message: 'Marks v%version%.',
-            prefix:  '',
-            annotate: true
         },
 
         compress: {
@@ -34,8 +26,20 @@ module.exports = function (grunt)
                     }
                 ]
             }
+        },
+
+        tagrelease: {
+            file: 'package.json',
+            commit:  true,
+            message: 'Marks v%version%.',
+            prefix:  '',
+            annotate: true
         }
     });
+
+    /**
+     * Register tasks.
+     */
 
     grunt.registerTask('updatepkg', 'Reloads package.json to memory.', function ()
     {
