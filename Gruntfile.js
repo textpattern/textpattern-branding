@@ -1,4 +1,5 @@
-module.exports = function (grunt) {
+module.exports = function (grunt)
+{
     'use strict';
 
     // Load Grunt plugins.
@@ -48,8 +49,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('release', 'Creates a new release. Usage:\ngrunt release[:patch | :minor | :major]', function (type)
     {
-        if (!type)
-        {
+        if (!type) {
             type = 'patch';
         }
 
