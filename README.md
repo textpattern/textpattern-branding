@@ -1,7 +1,5 @@
 # Textpattern branding
 
-[![devDependency Status](https://david-dm.org/textpattern/textpattern-branding/dev-status.svg)](https://david-dm.org/textpattern/textpattern-branding#info=devDependencies)
-
 [Textpattern](http://textpattern.com) branding resources.
 
 ## Install
