@@ -1,6 +1,6 @@
 # Textpattern branding
 
-[Textpattern](http://textpattern.com) branding resources.
+[Textpattern](https://textpattern.io/) branding resources.
 
 ## Install
 
@@ -12,4 +12,4 @@ $ npm install textpattern-branding
 
 ## Copyright and license
 
-Copyright (C) 2016 The Textpattern Development Team and Philipp Schilling. Licensed under [MIT license](https://github.com/textpattern/textpattern-branding/blob/master/LICENSE).
+Copyright (C) 2017 The Textpattern Development Team and Philipp Schilling. Licensed under [MIT license](https://github.com/textpattern/textpattern-branding/blob/master/LICENSE).
