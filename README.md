@@ -1,6 +1,6 @@
 # Textpattern branding
 
-[Textpattern](https://textpattern.io/) branding resources.
+[Textpattern](https://textpattern.com/) branding resources.
 
 ## Install
 
