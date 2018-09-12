@@ -1,7 +1,7 @@
 {
   "name": "textpattern-branding",
   "description": "The Textpattern brand image assets.",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "repository": {
     "type": "git",
     "url": "https://github.com/textpattern/textpattern-branding.git"
