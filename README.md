@@ -7,7 +7,7 @@
 You can include Textpattern branding resources in your project via npm:
 
 ```ShellSession
-$ npm install textpattern-branding
+npm install textpattern-branding
 ```
 
 ## Copyright and license
