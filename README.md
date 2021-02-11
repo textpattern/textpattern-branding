@@ -12,4 +12,4 @@ npm install textpattern-branding
 
 ## Copyright and license
 
-Copyright (C) 2020 The Textpattern Development Team and Philipp Schilling. Licensed under [MIT license](https://github.com/textpattern/textpattern-branding/blob/master/LICENSE).
+Copyright (C) 2021 The Textpattern Development Team and Philipp Schilling. Licensed under [MIT license](https://github.com/textpattern/textpattern-branding/blob/master/LICENSE).
